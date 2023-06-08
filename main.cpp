@@ -16,7 +16,7 @@ int main(){
   int id =ricerca(nomi, cognomi, nome, cognome);
 
     if (id != -1){
-        cout<< "trovato in posizione" << id << endl;
+        cout<< "trovato in posizione " << id << endl;
     }else{
         cout<< "non trovato" << endl;
     }
