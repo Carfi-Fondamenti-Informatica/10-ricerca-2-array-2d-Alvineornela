@@ -38,7 +38,7 @@ int ricerca(char nomi[5][15], char cognomi[5][15], char nome[15], char cognome[1
         for(int k = 0; k<25; k++){
             if(nomi[j][k] == nome[k]){
                 if(cognomi[j][k] == cognome[k]) {
-                    i++;
+                    return j;
                 }
             }
         }
